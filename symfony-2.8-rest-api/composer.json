@@ -16,6 +16,8 @@
         "symfony/symfony": "2.8.*",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
+        "doctrine/migrations": "~1.1",
+        "doctrine/doctrine-migrations-bundle": "~1.1",
         "symfony/swiftmailer-bundle": "~2.3,>=2.3.10",
         "symfony/monolog-bundle": "^3.0.2",
         "sensio/distribution-bundle": "~5.0",
@@ -23,10 +25,13 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "friendsofsymfony/oauth-server-bundle": "dev-master",
         "friendsofsymfony/rest-bundle": "dev-master",
+        "friendsofsymfony/user-bundle": "dev-master",
         "nelmio/api-doc-bundle": "2.7.0",
+        "nelmio/cors-bundle": "dev-master",
         "jms/security-extra-bundle": "1.5.*",
         "jms/di-extra-bundle": "1.5.*",
-        "jms/serializer-bundle": "0.13.*"
+        "jms/serializer-bundle": "0.13.*",
+        "twig/twig": "1.30.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
